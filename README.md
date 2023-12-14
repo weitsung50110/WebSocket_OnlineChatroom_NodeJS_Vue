@@ -42,3 +42,7 @@ space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間
 達成即時時間動態顯示 <br />
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/24.png)
 
+## Server running status
+當有2位使用者連進來時，1個人發訊息出去，全部人都會收到(此例為2位使用者) <br />
+![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/32.png)
+
