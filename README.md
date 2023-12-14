@@ -1,10 +1,7 @@
 ## 使用WebSocket結合vue.js，在node.js的express實作一個線上聊天室
 #### WebSocket加上發訊息時間，即時時間動態顯示，表情符號emoji，發文者訊息文字顏色不同等新功能。
-這次把原始的VanillaJS(原生Java script)，轉換成vue.js的形式。<br />
-我們可以發現傳換成vue後，程式碼的function都是寫在methods:中，<br />
-而data() { return { }}裡面則是存放初始訊息，<br />
-像是.html中有使用大括號{{ }}，它將資料動態地綁定到html的元素上，<br />
-使得資料變更時能夠自動更新。<br />
+這次把原始的VanillaJS(原生Java script)，轉換成vue.js的形式，<br />
+其中可以注意到有/public/front.js檔案，這個檔案是VanillaJS的版本。
 
 Root Directory<br />
 ├── server.js<br />
