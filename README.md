@@ -1,4 +1,4 @@
-## 使用WebSocket結合vue.js，在node.js的express實作一個線上聊天室
+# 使用WebSocket結合vue.js，在node.js的express實作一個線上聊天室
 #### WebSocket加上發訊息時間，即時時間動態顯示，表情符號emoji，發文者訊息文字顏色不同等新功能。
 這次把原始的VanillaJS(原生Java script)，轉換成vue.js的形式，<br />
 其中可以注意到有/public/front.js檔案，這個檔案是VanillaJS的版本。
@@ -43,6 +43,7 @@ space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/24.png)
 
 ## Server running status
+    node server.js
 當有2位使用者連進來時，1個人發訊息出去，全部人都會收到(此例為2位使用者) <br />
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/32.png)
 
