@@ -36,12 +36,11 @@ Root Directory<br />
 ↓{"name":"Lala","message":"me too !!","time":"16:57:12"}	55	16:57:12.936 <br />
 
 ## 聊天室
-space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間， <br />
-使得首尾元素分別位於容器的起始和結束處，而其餘的元素則均勻分布在中間。
+space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間，使得首尾元素分別位於容器的起始和結束處，而其餘的元素則均勻分布在中間。
 
-![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/23.png)
+![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/42.png)
 
-將發文者的訊息文字用不同顏色來標示。
+將發文者的訊息文字用不同顏色來標示，可以看到當在Name為Lala的頁面時，所有Lala的訊息顏色都會有所不同。
 
 ## Emoji
 聊天室中加入Emoji功能，可以加入可愛的❤️和😊，讓表達更生動。<br />Adding the cute ❤️ and 😊 emojis to the chatroom enhances expressions, making communication more vibrant.
