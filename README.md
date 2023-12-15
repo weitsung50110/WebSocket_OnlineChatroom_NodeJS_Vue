@@ -16,23 +16,23 @@ Root Directory<br />
 `-- ws@8.14.2 <br />
 
 ## WebSocket實作講解
-假設有兩個人在聊天室裡，互相傳訊息，分別為lala和蓮花，藉由network的message，<br />
+假設有兩個人在聊天室裡，互相傳訊息，分別為lala和Emily，藉由network的message，<br />
 可以藉由箭頭的方向，看出訊息的傳遞方向。<br />
-![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/25.png)
->↑{"name":"lala","message":"我改了時間拿取方法❤️","time":"11:40:24"}	57	11:40:24.152 <br />
-↓{"name":"lala","message":"我改了時間拿取方法❤️","time":"11:40:24"}	57	11:40:24.154 <br />
-↓{"name":"蓮花","message":"我有看到唷~","time":"11:40:35"}	52	11:40:35.186 <br />
-↓{"name":"蓮花","message":"好可愛歐!!!","time":"11:40:43"}	51	11:40:43.282 <br />
-↑{"name":"lala","message":"我好喜歡愛心❤️符號~~ 好Q😊","time":"11:41:00"}	63	11:41:00.088 <br />
-↓{"name":"lala","message":"我好喜歡愛心❤️符號~~ 好Q😊","time":"11:41:00"}	63	11:41:00.090 <br />
+![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/39.png)
+>↑{{"name":"Lala","message":"Hello❤️","time":"16:56:16"}	53	16:56:16.893 <br />
+↓{"name":"Lala","message":"Hello❤️","time":"16:56:16"}	53	16:56:16.902 <br />
+↓{"name":"Emily","message":"Hihi~ Nice to meet u:\">","time":"16:56:48"}	71	16:56:48.951 <br />
+↓{"name":"Emily","message":"I love u😊","time":"16:57:01"}	57	16:57:02.017 <br />
+↑{"name":"Lala","message":"me too !!","time":"16:57:12"}	55	16:57:12.926 <br />
+↓{"name":"Lala","message":"me too !!","time":"16:57:12"}	55	16:57:12.941 <br />
 
-![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/26.png)
->↓{"name":"lala","message":"我改了時間拿取方法❤️","time":"11:40:24"}	57	11:40:24.154<br />
-↑{"name":"蓮花","message":"我有看到唷~","time":"11:40:35"}	52	11:40:35.183<br />
-↓{"name":"蓮花","message":"我有看到唷~","time":"11:40:35"}	52	11:40:35.185<br />
-↑{"name":"蓮花","message":"好可愛歐!!!","time":"11:40:43"}	51	11:40:43.279<br />
-↓{"name":"蓮花","message":"好可愛歐!!!","time":"11:40:43"}	51	11:40:43.282<br />
-↓{"name":"lala","message":"我好喜歡愛心❤️符號~~ 好Q😊","time":"11:41:00"}<br />
+![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/40.png)
+>↓{"name":"Lala","message":"Hello❤️","time":"16:56:16"}	53	16:56:16.904 <br />
+↑{"name":"Emily","message":"Hihi~ Nice to meet u:\">","time":"16:56:48"}	71	16:56:48.934 <br />
+↓{"name":"Emily","message":"Hihi~ Nice to meet u:\">","time":"16:56:48"}	71	16:56:48.945 <br />
+↑{"name":"Emily","message":"I love u😊","time":"16:57:01"}	57	16:57:01.989 <br />
+↓{"name":"Emily","message":"I love u😊","time":"16:57:01"}	57	16:57:02.010 <br />
+↓{"name":"Lala","message":"me too !!","time":"16:57:12"}	55	16:57:12.936 <br />
 
 ## 聊天室
 space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間， <br />
@@ -47,4 +47,5 @@ space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間
     node server.js
 當有2位使用者連進來時，1個人發訊息出去，全部人都會收到(此例為2位使用者) <br />
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/32.png)
+![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/41.png)
 
