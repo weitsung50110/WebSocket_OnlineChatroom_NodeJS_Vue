@@ -11,7 +11,7 @@ Root Directory<br />
 │    ├── styles.css<br />
 │    ├── index.html<br />
   
-**npm list** <br />
+**> npm list** <br />
 +-- express@4.18.2 <br />
 `-- ws@8.14.2 <br />
 
