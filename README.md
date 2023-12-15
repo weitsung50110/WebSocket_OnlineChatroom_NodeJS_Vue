@@ -36,23 +36,29 @@ Root Directory<br />
 ↓{"name":"Lala","message":"me too !!","time":"16:57:12"}	55	16:57:12.936 <br />
 
 ## 聊天室
-space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間，使得首尾元素分別位於容器的起始和結束處，而其餘的元素則均勻分布在中間。
+space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間，<br />使得首尾元素分別位於容器的起始和結束處，而其餘的元素則均勻分布在中間。
 
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/42.png)
 
 將發文者的訊息文字用不同顏色來標示，可以看到當在Name為Lala的頁面時，所有Lala的訊息顏色都會有所不同。
 
 ## Emoji
-聊天室中加入Emoji功能，可以加入可愛的❤️和😊，讓表達更生動。<br />Adding the cute ❤️ and 😊 emojis to the chatroom enhances expressions, making communication more vibrant.
+聊天室中加入Emoji功能，可以加入可愛的❤️和😊，讓表達更生動。
+
+Adding the cute ❤️ and 😊 emojis to the chatroom enhances expressions, making communication more vibrant.
 
 ## Current Time
-達成即時時間動態顯示 <br />Achieving real-time dynamic display of timestamps.
+達成即時時間動態顯示 。
+
+Achieving real-time dynamic display of timestamps.
 
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/24.png)
 
 ## Server running status
     node server.js
-當有2位使用者連進來時，1個人發訊息出去，全部人都會收到(此例為2位使用者)
+當有2位使用者連進來時，1個人發訊息出去，全部人都會收到(此例為2位使用者)。
+
+When two users are connected and one of them sends a message, it will be received by both users.
 
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/32.png)
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/41.png)
