@@ -17,14 +17,15 @@ Root Directory<br />
 
 ## WebSocket實作講解
 假設有兩個人在聊天室裡，互相傳訊息，分別為lala和Emily，藉由network的message，<br />
-可以藉由箭頭的方向，看出訊息的傳遞方向。<br />
+可以藉由箭頭的方向，看出訊息的傳遞方向。
+
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/39.png)
 >↑{{"name":"Lala","message":"Hello❤️","time":"16:56:16"}	53	16:56:16.893 <br />
 ↓{"name":"Lala","message":"Hello❤️","time":"16:56:16"}	53	16:56:16.902 <br />
 ↓{"name":"Emily","message":"Hihi~ Nice to meet u:\">","time":"16:56:48"}	71	16:56:48.951 <br />
 ↓{"name":"Emily","message":"I love u😊","time":"16:57:01"}	57	16:57:02.017 <br />
 ↑{"name":"Lala","message":"me too !!","time":"16:57:12"}	55	16:57:12.926 <br />
-↓{"name":"Lala","message":"me too !!","time":"16:57:12"}	55	16:57:12.941 <br />
+↓{"name":"Lala","message":"me too !!","time":"16:57:12"}	55	16:57:12.941 
 
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/40.png)
 >↓{"name":"Lala","message":"Hello❤️","time":"16:56:16"}	53	16:56:16.904 <br />
@@ -36,16 +37,24 @@ Root Directory<br />
 
 ## 聊天室
 space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間， <br />
-使得首尾元素分別位於容器的起始和結束處，而其餘的元素則均勻分布在中間。<br />
+使得首尾元素分別位於容器的起始和結束處，而其餘的元素則均勻分布在中間。
+
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/23.png)
 
+將發文者的訊息文字用不同顏色來標示。
+
+## Emoji
+聊天室中加入Emoji功能，可以加入可愛的❤️和😊，讓表達更生動。<br />Adding the cute ❤️ and 😊 emojis to the chatroom enhances expressions, making communication more vibrant.
+
 ## Current Time
-達成即時時間動態顯示 <br />
+達成即時時間動態顯示 <br />Achieving real-time dynamic display of timestamps.
+
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/24.png)
 
 ## Server running status
     node server.js
-當有2位使用者連進來時，1個人發訊息出去，全部人都會收到(此例為2位使用者) <br />
+當有2位使用者連進來時，1個人發訊息出去，全部人都會收到(此例為2位使用者)
+
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/32.png)
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/41.png)
 
