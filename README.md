@@ -1,5 +1,5 @@
-# 使用WebSocket結合vue.js，在node.js的express實作一個線上聊天室 
 # Develop an online chatroom by integrating WebSocket with Vue.js in an Express framework within Node.js 
+## 使用WebSocket結合vue.js，在node.js的express實作一個線上聊天室 
 
 ### WebSocket功能摘要 ; Summary of WebSocket Features
 - 訊息發送時間 ; Message sending timestamps
