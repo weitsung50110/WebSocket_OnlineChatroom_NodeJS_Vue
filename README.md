@@ -47,6 +47,8 @@ space-between 會在 Flex 容器的主軸上平均分配子元素之間的空間
 
 Adding the cute ❤️ and 😊 emojis to the chatroom enhances expressions, making communication more vibrant.
 
+![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/43.png)
+
 ## Current Time
 達成即時時間動態顯示 。
 
