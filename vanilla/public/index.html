@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebSocket Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="chat-container">
+    <h1>WebSocket Chat Room</h1>
+    <span class="user-name">name: empty</span>
+  
+    <!-- Message display area -->
+    <div id="messageBox"></div>
+  
+    <!-- Input fields and send button -->
+    <div>
+      <label for="inputName">Name:</label>
+      <input type="text" id="inputName" class="chat-input" placeholder="Enter your name..."><br/><br/>
+    </div>
+    <div>
+      <label for="inputMessage">Text:</label>
+      <input type="text" id="inputMessage" class="chat-input" placeholder="Enter your message...">
+      <button id="smileyButton" class="emoji-button">😊</button>
+      <button id="heartButton" class="emoji-button">❤️</button>
+    </div>
+    <button id="text_btn" class="send-button">Send</button>
+
+    <!-- Display area for showing real-time clock -->
+    <div id="realTimeClock"></div>
+  </div>
+  
+  <script src="front.js"></script>
+</body>
+</html>
