@@ -35,6 +35,28 @@ Root Directory<br />
 +-- express@4.18.2 <br />
 `-- ws@8.14.2 <br />
 
+## WebSocket Events and Methods Explanation
+
+1. socket.onopen 事件：當 WebSocket 連接成功建立時觸發。
+
+2. socket.onmessage事件：當接收到從伺服器發送來的訊息時觸發。同樣地，
+
+3. socket.onclose 事件：當 WebSocket 連接關閉時觸發。
+
+4. socket.send() ：是用於向 WebSocket 伺服器發送資料的方法。
+
+## WebSocket Connection States
+***client.readyState 屬性代表 WebSocket 連接的當前狀態，可能的值是 0、1、2 和 3，分別對應著 WebSocket不同的連接狀態。*** <br />
+***client.readyState property represents the current state of a WebSocket connection, with possible values of 0, 1, 2, and 3, corresponding to different connection states of WebSocket.***
+
+- WebSocket.CONNECTING (0)：連接尚未建立。
+
+- WebSocket.OPEN (1)：連接已建立且可以通訊。
+
+- WebSocket.CLOSING (2)：連接正在關閉。
+
+- WebSocket.CLOSED (3)：連接已經關閉或無法建立。
+
 ## WebSocket實作講解 WebSocket Practical Demonstration
 假設有兩個人在聊天室裡，互相傳訊息，分別為lala和Emily，藉由network的message，
 可以藉由箭頭的方向，看出訊息的傳遞方向。
