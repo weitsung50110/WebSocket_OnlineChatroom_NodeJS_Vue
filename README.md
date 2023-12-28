@@ -10,6 +10,7 @@
 - [Emoji](#emoji)
 - [Current Time](#current-time)
 - [Server running status](#server-running-status)
+- [SCSS](#SCSS)
 
 ### WebSocket功能摘要 ; Summary of WebSocket Features
 - 訊息發送時間 ; Message sending timestamps
@@ -130,3 +131,13 @@ When two users are connected and one of them sends a message, it will be receive
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/32.png)
 ![](https://raw.githubusercontent.com/weitsung50110/WebSocketwithNodeJSandVue/main/github_images/41.png)
 
+## SCSS
+步驟 1: 安裝 SCSS 編譯器
+
+    npm install sass
+
+步驟 2: 撰寫 SCSS 文件
+
+步驟 3: 編譯 SCSS 文件為 CSS
+
+    npx sass public/styles.scss public/styles.css
