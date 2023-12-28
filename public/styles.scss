@@ -1,0 +1,90 @@
+// 定義變量
+$primary-color: #007bff;
+$secondary-color: #ccc;
+$background-color: #f4f4f4;
+$text-color: #460606;
+$user-name-color: #333;
+$timestamp-color: #500a0a;
+$error-color: #c70202;
+$shadow-color: rgba(0, 0, 0, 0.1);
+$error-border-color: #7a0404;
+
+// 重置部分預設瀏覽器樣式
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+// 聊天室容器
+.chat-container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid $secondary-color;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px $shadow-color;
+}
+
+// 聊天消息樣式
+#messageBox {
+    background-color: $background-color;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px dashed $error-border-color;
+    justify-content: space-between;
+}
+
+// 輸入字段樣式
+.chat-input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid $secondary-color;
+}
+
+// 發送按鈕樣式
+.send-button {
+    padding: 8px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    color: $text-color;
+}
+
+// 用戶名稱樣式
+.user-name {
+    font-weight: bold;
+    color: $user-name-color;
+    font-size: 18px;
+}
+
+// 時間戳樣式
+.timestamp {
+    color: $timestamp-color;
+}
+
+#realTimeClock {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0c6c6;
+    border-radius: 5px;
+}
+
+.message_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nodeSpan1 {
+    color: $error-color;
+}

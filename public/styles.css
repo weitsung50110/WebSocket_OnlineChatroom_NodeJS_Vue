@@ -1,79 +1,74 @@
-/* Reset some default browser styles */
 body, ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-/* Chat room container */
 .chat-container {
-    width: 80%;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for chat messages */
 #messageBox {
-    background-color: #f4f4f4;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px dashed #7a0404;
-    justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px dashed #7a0404;
+  justify-content: space-between;
 }
 
-/* Style for input fields */
 .chat-input {
-    width: calc(100% - 20px);
-    padding: 8px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-/* Style for the send button */
 .send-button {
-    padding: 8px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 p {
-    color: #460606;
+  color: #460606;
 }
 
-/* Style for user names */
 .user-name {
-    font-weight: bold;
-    color: #333;
-    font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
 }
 
-/* Style for timestamps */
 .timestamp {
-    color: #500a0a;
+  color: #500a0a;
 }
 
 #realTimeClock {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f0c6c6;
-    border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0c6c6;
+  border-radius: 5px;
 }
 
-.message_item{
-    display: flex;
-    justify-content: space-between;
+.message_item {
+  display: flex;
+  justify-content: space-between;
 }
 
-.nodeSpan1{
-    color: #c70202;
+.nodeSpan1 {
+  color: #c70202;
 }
+
+/*# sourceMappingURL=styles.css.map */
