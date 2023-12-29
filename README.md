@@ -12,6 +12,16 @@
 - [Server running status](#server-running-status)
 - [SCSS](#SCSS)
 
+### WebPack 分支教學
+此專案有兩個Branch，一個是有WebPack的版本，一個是沒有使用的版本，<br/>
+因為使用完WebPack後會把很多檔案合成一個bundle.js，大家可以根據自己的需要進行更改。
+
+使用以下指令，可以把src/內的檔案合成一個bundle船進去dist/中。
+
+    npx webpack --mode development
+
+    node .\server.js
+
 ### WebSocket功能摘要 ; Summary of WebSocket Features
 - 訊息發送時間 ; Message sending timestamps
 - 即時時間動態顯示 ; Real-time dynamic display of timestamps
