@@ -9,7 +9,7 @@ const wss = new WebSocket.Server({ server });
 // 提供靜態資源（HTML 檔案）
 // Setting path for public directory 
 const path = require("path")
-const static_path = path.join(__dirname, "public") //變成絕對路徑 D:\qqq\public，nodejs使用絕對路徑較安全可靠，在 Node 中使用相對路徑進行檔案讀取是很危險的, 建議一律都透過絕對路徑的方式來處理
+const static_path = path.join(__dirname, "dist") //變成絕對路徑 D:\qqq\public，nodejs使用絕對路徑較安全可靠，在 Node 中使用相對路徑進行檔案讀取是很危險的, 建議一律都透過絕對路徑的方式來處理
 app.use(express.static(static_path)) 
 //app.use(express.static('.'));
 
