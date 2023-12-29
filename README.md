@@ -13,8 +13,8 @@
 - [SCSS](#SCSS)
 
 ### WebPack 教學
-此專案有兩個Branch，一個是有WebPack的版本"WebPack"，一個是沒有使用的版本"main"，<br/>
-使用完WebPack後會把很多檔案合成一個bundle.js，我把兩個版本都留著，大家可以根據自己的需要進行更改。
+此專案是有WebPack的版本"WebPack"，<br/>
+使用完WebPack後會把很多檔案合成一個bundle.js，大家可以根據自己的需要進行更改。
 
 - 新增了webpack.config.js檔案
 - 把index.html中的引入<link rel="stylesheet" href="styles.css">和<!-- <script src="vue.js"></script>註解掉，因為我已經在webpack.config.js設定好，會直接抓取這些檔案。
