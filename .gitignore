@@ -1,0 +1,5 @@
+# node_modules 目錄 - 包含所有的依賴庫
+node_modules/
+
+# 用於鎖定依賴版本的檔案，不需要追蹤
+package-lock.json
