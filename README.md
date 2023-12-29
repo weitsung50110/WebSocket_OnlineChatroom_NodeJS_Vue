@@ -12,9 +12,13 @@
 - [Server running status](#server-running-status)
 - [SCSS](#SCSS)
 
-### WebPack 分支教學
-此專案有兩個Branch，一個是有WebPack的版本，一個是沒有使用的版本，<br/>
-因為使用完WebPack後會把很多檔案合成一個bundle.js，大家可以根據自己的需要進行更改。
+### WebPack 教學
+此專案有兩個Branch，一個是有WebPack的版本"WebPack"，一個是沒有使用的版本"main"，<br/>
+使用完WebPack後會把很多檔案合成一個bundle.js，我把兩個版本都留著，大家可以根據自己的需要進行更改。
+
+- 新增了webpack.config.js檔案
+- 把index.html中的引入<link rel="stylesheet" href="styles.css">和<!-- <script src="vue.js"></script>註解掉，因為我已經在webpack.config.js設定好，會直接抓取這些檔案。
+- vue.js中要加入import './styles.scss'; // 引入 SCSS 樣式文件
 
 使用以下指令，可以把src/內的檔案合成一個bundle船進去dist/中。
 
