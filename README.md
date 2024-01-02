@@ -47,6 +47,17 @@ Root Directory<br />
 +-- express@4.18.2 <br />
 `-- ws@8.14.2 <br />
 
+"sass": "^1.69.5", <br />
+"babel-loader": "^9.1.3", <br />
+"css-loader": "^6.8.1", <br />
+"html-webpack-plugin": "^5.6.0", <br />
+"sass-loader": "^13.3.3", <br />
+"style-loader": "^3.3.3", <br />
+"vue": "^3.3.13", <br />
+"vue-loader": "^16.8.3", <br />
+"webpack": "^5.89.0", <br />
+"webpack-cli": "^5.1.4"
+
 ## WebSocket Events and Methods Explanation
 
 1. socket.onopen 事件：當 WebSocket 連接成功建立時觸發。
