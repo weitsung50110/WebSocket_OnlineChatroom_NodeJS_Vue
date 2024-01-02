@@ -11,20 +11,7 @@
 - [Current Time](#current-time)
 - [Server running status](#server-running-status)
 - [SCSS](#SCSS)
-
-### WebPack 教學
-此專案是有WebPack的版本"WebPack"，<br/>
-使用完WebPack後會把很多檔案合成一個bundle.js，大家可以根據自己的需要進行更改。
-
-- 新增了webpack.config.js檔案
-- 把index.html中的引入<link rel="stylesheet" href="styles.css">和<!-- <script src="vue.js"></script>註解掉，因為我已經在webpack.config.js設定好，會直接抓取這些檔案。
-- vue.js中要加入import './styles.scss'; // 引入 SCSS 樣式文件
-
-使用以下指令，可以把src/內的檔案合成一個bundle船進去dist/中。
-
-    npx webpack --mode development
-
-    node .\server.js
+- [WebPack 教學](#WebPack-教學)
 
 ### WebSocket功能摘要 ; Summary of WebSocket Features
 - 訊息發送時間 ; Message sending timestamps
@@ -155,3 +142,19 @@ When two users are connected and one of them sends a message, it will be receive
 步驟 3: 編譯 SCSS 文件為 CSS
 
     npx sass public/styles.scss public/styles.css
+
+### WebPack 教學
+此專案是有WebPack的版本"WebPack"，<br/>
+使用完WebPack後會把很多檔案合成一個bundle.js，大家可以根據自己的需要進行更改。
+
+- 新增了webpack.config.js檔案
+- 把index.html中的引入<link rel="stylesheet" href="styles.css">和<!-- <script src="vue.js"></script>註解掉，因為我已經在webpack.config.js設定好，會直接抓取這些檔案。
+- vue.js中要加入import './styles.scss'; // 引入 SCSS 樣式文件
+
+使用以下指令，可以把src/內的檔案合成一個bundle船進去dist/中。
+
+    npx webpack --mode development
+
+    npx webpack --mode production
+
+    node .\server.js
